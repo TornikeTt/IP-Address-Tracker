@@ -1,0 +1,131 @@
+* { 
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+main { 
+  width: 100%;
+  height: 100vh;
+  font-family: "Rubik", sans-serif;
+}
+
+header { 
+  width: 100%;
+  height: 270px;
+
+  background-image: url("../assets/images/pattern-bg-desktop.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  position: relative;
+}
+
+.IP_input_container { 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 { 
+    font-weight: 400;
+    color: white;
+    margin-top: 2.2%;
+  }
+
+  form { 
+    .input-wrapper { 
+      overflow: hidden;
+      position: relative;
+      width: 529px;
+      height: 55px;
+      border-radius: 15px;
+      margin-top: 4.7%;
+
+      input { 
+        width: 100%;
+        height: 100%;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-family: "Rubik", sans-serif;
+        font-size: 18px;
+        padding-left: 20px;
+      }
+
+      button { 
+        position: absolute;
+        width: 55px;
+        height: 100%;
+        right: 0;
+        border: none;
+        cursor: pointer;
+        background-color: hsl(0, 0%, 17%);
+
+        &:hover { 
+          opacity: 0.9;
+        }
+      }
+    }
+  }
+}
+
+.IP_output_container { 
+  width: min(80%, 1050px);
+  height: 149px;
+  overflow: hidden;
+
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -78px;
+
+  border-radius: 15px;
+  background-color: white;
+  
+  display: flex; 
+  justify-content: space-around;
+
+  .ip_address { 
+    width: 335px;
+    display: flex;
+
+    justify-content: space-between;
+    margin-left: 29px;
+    overflow: hidden;
+
+    h2 { 
+      margin-top: 25px;
+      font-variant: small-caps;
+      font-size: 13px;
+      color: hsl(0, 0%, 59%);
+      letter-spacing: 1.1px;
+    }
+    
+    p { 
+      width: 160px;
+      margin-top: 15px; 
+      color: hsl(0, 0%, 17%);
+      font-weight: 500;
+      font-size: 24.4px;
+    }
+
+    .line { 
+      width: 1px;
+      height: 70px;
+      background-color: grey;
+      align-self: center;
+    }
+  }
+}
+
+
+.map { 
+  width: 100%;
+  height: calc(100% - 270px);
+  background-color: grey;
+}
+
+
+
