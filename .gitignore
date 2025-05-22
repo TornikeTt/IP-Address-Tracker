@@ -30,6 +30,7 @@ dist-ssr
 *.fig
 
 .DS_Store
+.env
 
 /design
 style-guide.md
