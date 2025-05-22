@@ -56,4 +56,4 @@ npm run dev
 ## 🌍 Live Demo
 
 Check out the live version of the project here:  
-[Live Demo](https://sensational-starship-7f1f7e.netlify.app/)
+[Live Demo](https://clinquant-mandazi-fae822.netlify.app/)
